@@ -24,9 +24,9 @@ class Stack {
         void Push(int x);
         bool Pop();
 
-    int Top() const;
-    bool Empty() const;
-    size_t Size() const;
+        int Top() const;
+        bool Empty() const;
+        size_t Size() const;
 
     private:
 };
