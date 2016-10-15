@@ -1,18 +1,23 @@
+// Copyright 2016 Andrey "Feliksas" Ignatov
+
+#ifndef STACK_STACK_H_
+#define STACK_STACK_H_
+
 #pragma once
 
 #include <vector>
 
 class Stack {
-    public:
-        void Push(int x);
-        bool Pop();
+ public:
+    void Push(int x);
+    bool Pop();
 
-        int Top() const;
-        bool Empty() const;
-        size_t Size() const;
+    int Top() const;
+    bool Empty() const;
+    size_t Size() const;
 
-    private:
-        std::vector<int> stack_;
+ private:
+    std::vector<int> stack_;
 };
 
 void Stack::Push(int x) {
@@ -40,3 +45,5 @@ bool Stack::Empty() const {
 size_t Stack::Size() const {
     return stack_.size();
 }
+
+#endif  // STACK_STACK_H_
