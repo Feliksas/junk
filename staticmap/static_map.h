@@ -32,7 +32,7 @@ bool StaticMap::Find(const std::string& key, std::string* value) const {
     }
     size_t left = 0, right = (items_.size()-1);
     while (left <= right) {
-        size_t m = floor((left + right) >> 1);
+        size_t m = ((left + right) >> 1);
         if (items_[m].first < key) {
             left = m+1;
             continue;
