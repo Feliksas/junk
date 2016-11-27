@@ -1,4 +1,4 @@
-// Copyright 2006 Andrey "Feliksas" Ignatov
+// Copyright 2016 Andrey "Feliksas" Ignatov
 
 #ifndef READER_READERS_UTIL_H_
 #define READER_READERS_UTIL_H_
