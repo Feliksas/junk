@@ -1,4 +1,4 @@
-// Copyright 2006 Andrey "Feliksas" Ignatov
+// Copyright 2016 Andrey "Feliksas" Ignatov
 
 #ifndef FINDFINALROOM_ROGUE_H_
 #define FINDFINALROOM_ROGUE_H_
